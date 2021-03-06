@@ -4,7 +4,7 @@
   --primary-color: #2196f3;
   --main-color: #212121;
   --paragraph-color: #757575;
-  --background-slogan: ##2f303a;
+  --background-slogan: #2f303a;
 }
 
 body {
@@ -48,11 +48,17 @@ li {
 
 /* header */
 .logo{
-
+font-family: "Raleway", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: var(--main-color);
 }
 
 .logo-web{
-
+color: var(--primary-color);
 }
 
 .menu{
