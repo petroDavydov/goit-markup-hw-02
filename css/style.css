@@ -11,6 +11,7 @@ body {
   font-family: "Roboto" sans-serif;
   font-size: 14px;
   font-weight: 400;
+  font-style: normal;
   color: var(--main-color);
   letter-spacing: 1.8;
   margin: 0;
@@ -32,6 +33,13 @@ a:hover {
   color: inherit;
   text-decoration: none;
   outline: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 
 p {
@@ -46,38 +54,57 @@ li {
   margin: 0;
 }
 
+/*and default style */
+
 /* header */
-.logo{
-font-family: "Raleway", sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.2;
-letter-spacing: 0.03em;
-color: var(--main-color);
+
+/* .navigation {
+} */
+
+.logo,
+.logo:hover,
+.logo:focus {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
-.logo-web{
-color: var(--primary-color);
+.logo-web {
+  color: var(--primary-color);
 }
 
-.menu{
-
+/* .menu {
 }
 
-.menu{}
+.menu {
+}
 
-.menu-item{}
+.menu-item {
+}
 
-.menu-link{}
+.menu-link {
+ } */
 
-.connect{}
+.menu-link:hover,
+.menu-link:focus,
+.linkM:hover,
+.linkM:focus,
+.linkT:hover,
+.linkT:focus {
+  color: var(--primary-color);
+}
 
-.connect-item{}
+/* .connect {
+}
 
-.linkM{}
+.connect-item {
+}
 
-.linkT{}
+.linkM {
+}
 
-.
-
+.linkT {
+} */
