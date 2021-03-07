@@ -100,7 +100,9 @@ li {
   color: var(--primary-color);
 }
 
-.logoF, .logoF:hover,.logoF:focus {
+.logoF,
+.logoF:hover,
+.logoF:focus {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -109,19 +111,6 @@ li {
   letter-spacing: 0.03em;
   color: var(--btn-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* .menu {
 }
