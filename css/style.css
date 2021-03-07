@@ -31,7 +31,9 @@ h6 {
 }
 
 a,
-a:hover {
+a:hover,
+a:focus
+ {
   color: inherit;
   text-decoration: none;
   outline: none;
@@ -43,6 +45,7 @@ a:hover {
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
+
 
 p {
   margin: 0;
@@ -62,6 +65,7 @@ li {
   color: var(--btn-color);
   font-family: Roboto;
   font-style: normal;
+  cursor: pointer;
 }
 
 .btn:hover,
@@ -148,3 +152,5 @@ li {
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
+
+/* slogan section end */
