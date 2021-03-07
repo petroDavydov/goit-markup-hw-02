@@ -161,29 +161,42 @@ li {
 
 /* marits section */
 
-.marits-trait{	
-font-weight: bold;
-line-height: 1.15;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+.marits-trait {
+  font-weight: bold;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.marits-info{	
-line-height: 1.7;
-letter-spacing: 0.03em;
-color: #757575;
+.marits-info {
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color:var(--paragraph-color);
 }
 
 /* marits section end */
 
-/* business section */
+/* business section, team section */
 
-.business-title{
-font-weight: bold;
-font-size: 36px;
-line-height: 1.2;
-letter-spacing: 0.03em;
+.business-title,
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 /* business section end */
 
+/* team section */
+
+.team-name{	
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+
+.team-position{
+	color: var(--paragraph-color);
+}
