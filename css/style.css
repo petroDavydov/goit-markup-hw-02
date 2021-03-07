@@ -175,3 +175,15 @@ color: #757575;
 }
 
 /* marits section end */
+
+/* business section */
+
+.business-title{
+font-weight: bold;
+font-size: 36px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+}
+
+/* business section end */
+
