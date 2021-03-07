@@ -6,6 +6,7 @@
   --paragraph-color: #757575;
   --background-slogan: #2f303a;
   --btn-color: #fff;
+  --color-zsix: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -98,6 +99,29 @@ li {
 .logo-web {
   color: var(--primary-color);
 }
+
+.logoF, .logoF:hover,.logoF:focus {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--btn-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* .menu {
 }
@@ -201,22 +225,27 @@ li {
   color: var(--paragraph-color);
 }
 
-
-
-
-
-address{
-	font-style: inherit;
+footer {
+  background: var(--background-slogan);
 }
 
+address {
+  font-style: inherit;
+  color: var(--btn-color);
+}
 
+.linkM,
+.linkT {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--color-zsix);
+}
 
 /* team section end*/
-
-
-
-
-
 
 /* portfolio-pointers */
 
