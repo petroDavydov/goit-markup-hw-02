@@ -223,8 +223,7 @@ address {
   color: var(--btn-color);
 }
 
-.linkM,
-.linkT {
+.link-footer {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
