@@ -5,10 +5,11 @@
   --main-color: #212121;
   --paragraph-color: #757575;
   --background-slogan: #2f303a;
+  --btn-color: #fff;
 }
 
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
@@ -16,6 +17,7 @@ body {
   letter-spacing: 1.8;
   margin: 0;
   padding: 0;
+  color: var(--main-color);
 }
 
 h1,
@@ -25,7 +27,7 @@ h4,
 h5,
 h6 {
   font-family: "Roboto";
-  color: #212121;
+  color: var(--main-color);
 }
 
 a,
@@ -45,6 +47,7 @@ a:hover {
 p {
   margin: 0;
   padding: 0;
+  --paragraph-color: #757575;
 }
 
 ul,
@@ -52,6 +55,19 @@ li {
   display: block;
   padding: 0;
   margin: 0;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: var(--btn-color);
+  font-family: Roboto;
+  font-style: normal;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--btn-color);
+  color: var(--primary-color);
 }
 
 /*and default style */
@@ -112,3 +128,23 @@ li {
 /* header end */
 
 /* slogan section */
+
+.slogan {
+  background-color: var(--background-slogan);
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.slogan-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
