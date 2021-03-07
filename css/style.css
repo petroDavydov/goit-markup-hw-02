@@ -202,4 +202,24 @@ li {
 }
 /* team section end*/
 
+/* portfolio-pointers */
 
+.portfolio-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-color);
+}
+
+.portfolio-description:hover,
+.portfolio-name:hover {
+  color: var(--primary-color);
+}
+/* portfolio-pointers end */
