@@ -171,7 +171,7 @@ li {
 .marits-info {
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color:var(--paragraph-color);
+  color: var(--paragraph-color);
 }
 
 /* marits section end */
@@ -190,13 +190,16 @@ li {
 
 /* team section */
 
-.team-name{	
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-letter-spacing: 0.03em;
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
-.team-position{
-	color: var(--paragraph-color);
+.team-position {
+  color: var(--paragraph-color);
 }
+/* team section end*/
+
+
