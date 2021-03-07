@@ -212,6 +212,13 @@ li {
   letter-spacing: 0.03em;
 }
 
+.team-name:hover,
+.team-name:focus,
+.team-position:hover,
+.team-position:focus {
+  color: var(--primary-color);
+}
+
 .team-position {
   color: var(--paragraph-color);
 }
