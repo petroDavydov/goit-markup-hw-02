@@ -200,7 +200,23 @@ li {
 .team-position {
   color: var(--paragraph-color);
 }
+
+
+
+
+
+address{
+	font-style: inherit;
+}
+
+
+
 /* team section end*/
+
+
+
+
+
 
 /* portfolio-pointers */
 
