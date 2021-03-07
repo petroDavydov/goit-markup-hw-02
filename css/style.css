@@ -161,6 +161,7 @@ li {
 /* marits section */
 
 .marits-trait {
+  font-size: 14px;
   font-weight: bold;
   line-height: 1.15;
   letter-spacing: 0.03em;
