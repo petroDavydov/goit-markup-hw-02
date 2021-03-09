@@ -268,4 +268,8 @@ address {
 .portfolio-name:hover {
   color: var(--primary-color);
 }
+
+.btn-portfolio{
+	font-weight: 500;
+}
 /* portfolio-pointers end */
