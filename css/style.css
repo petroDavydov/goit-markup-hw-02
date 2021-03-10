@@ -18,7 +18,6 @@ body {
   color: var(--main-color);
   margin: 0;
   padding: 0;
-  color: var(--main-color);
 }
 
 h1,
@@ -240,7 +239,6 @@ address {
 .link-footer {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -270,9 +268,8 @@ address {
   color: var(--primary-color);
 }
 
-.btn-portfolio{
-	font-weight: 500;
-
+.btn-portfolio {
+  font-weight: 500;
 }
 
 /* portfolio-pointers end */
